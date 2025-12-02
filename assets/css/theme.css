@@ -57,4 +57,13 @@
 	 */
 	--ease-out: cubic-bezier(0.22, 1, 0.36, 1);  /* "Power2.out" equivalent */
 	--duration-normal: 0.6s;                      /* Default animation duration */
+	
+	/* TYPOGRAPHY TOKENS: font families, weights, and role-based tokens for body, headings and monospace */
+	--font-sans: "PT Sans", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+	--font-serif: ui-serif, Georgia, "Times New Roman", Times, "Noto Serif", serif;
+	--font-mono: ui-monospace, "Science Gothic", Menlo, Monaco, "Roboto Mono", "Courier New", monospace;
+
+	--font-weight-body: 400;
+	--font-weight-heading: 100;
+
 }
